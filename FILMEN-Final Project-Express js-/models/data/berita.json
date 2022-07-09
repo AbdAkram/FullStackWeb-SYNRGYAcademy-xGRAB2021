@@ -1,0 +1,82 @@
+{
+    "berita" : [
+        {
+            "idKategori":1,
+            "judulBerita": "Spiderman: Far From Home - Spiderman ada tiga!",
+            "sumberBerita": "Rafi",
+            "jumlahLike":0,
+            "isMovieNews":true,
+            "isSerialNews":false,
+            "jumlahLihat":0,
+            "isiBerita":"test",
+            "sinopsis" : "Kamu Tau Ga Spiderman Ada Tiga",
+            "bannerBerita":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tobey-maguire-andrew-garfield-tom-holland-1607527815.jpg?crop=1.00xw:0.502xh;0,0.104xh&resize=1200:*",
+            "soundtrack":"https://dl.dropbox.com/s/ieu0c5gmcomdouc/%E2%80%9CSpider-Man%E2%80%9D%20%281967%20Theme%20Song%29%20by%20Bob%20Harris%20and%20Paul%20Francis%20Webster%20-%20Cover%20by%20The%20Vocal%20Chords.mp3"
+        },
+        {
+            "idKategori":2,
+            "judulBerita": "Judul Berita A",
+            "sumberBerita": "Moch",
+            "jumlahLike":0,
+            "isMovieNews":true,
+            "isSerialNews":false,
+            "jumlahLihat":0,
+            "isiBerita":"Sit magna consequat consectetur cupidatat aute. Minim ad minim tempor nulla tempor aute culpa nisi incididunt cupidatat reprehenderit. Excepteur ut pariatur duis ex id veniam culpa excepteur ea elit laborum mollit. Nulla dolore mollit ipsum ad qui aute.\r\nOccaecat nisi deserunt cupidatat enim fugiat officia consectetur. Lorem mollit anim aliqua consequat anim irure dolor ex amet. Sunt officia ad anim id officia ea proident esse excepteur aute laborum. Tempor anim qui cillum eiusmod officia in qui occaecat eiusmod sit voluptate magna ea elit. Minim anim aliquip aute sint eiusmod do tempor culpa do sit voluptate veniam. Fugiat reprehenderit deserunt dolore non consequat proident Lorem laborum esse occaecat dolor quis irure. In mollit laborum sint qui proident ipsum in do labore aliquip.\r\nNulla aliquip dolore pariatur non ullamco eu nisi sint voluptate. Deserunt magna pariatur sint in sint dolor enim labore velit. Sunt magna ut id aute. Et aute officia labore laboris esse ipsum ex.\r\nUt quis officia do sint. In id deserunt consectetur ut sint culpa incididunt. Deserunt officia nulla elit aliqua pariatur aliqua eiusmod sit occaecat officia commodo pariatur.\r\nNulla exercitation ut nisi esse cillum ad irure aliquip laboris consequat ut ut aute. Do sint aute est mollit tempor. Ex dolor do qui labore ipsum tempor labore esse exercitation consequat aliqua ullamco qui. Incididunt amet irure anim quis ullamco nostrud irure. Ex pariatur et elit incididunt exercitation esse dolor aliquip reprehenderit aliqua.\r\n",
+            "sinopsis" : "Apa Aja deh",
+            "bannerBerita":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tobey-maguire-andrew-garfield-tom-holland-1607527815.jpg?crop=1.00xw:0.502xh;0,0.104xh&resize=1200:*",
+            "soundtrack":"https://dl.dropbox.com/s/ieu0c5gmcomdouc/%E2%80%9CSpider-Man%E2%80%9D%20%281967%20Theme%20Song%29%20by%20Bob%20Harris%20and%20Paul%20Francis%20Webster%20-%20Cover%20by%20The%20Vocal%20Chords.mp3"
+        },
+        {
+            "idKategori":3,
+            "judulBerita": "Berita B",
+            "sumberBerita": "Siapa Aja Lah",
+            "jumlahLike":0,
+            "isMovieNews":false,
+            "isSerialNews":true,
+            "jumlahLihat":0,
+            "isiBerita":"Sit magna consequat consectetur cupidatat aute. Minim ad minim tempor nulla tempor aute culpa nisi incididunt cupidatat reprehenderit. Excepteur ut pariatur duis ex id veniam culpa excepteur ea elit laborum mollit. Nulla dolore mollit ipsum ad qui aute.\r\nOccaecat nisi deserunt cupidatat enim fugiat officia consectetur. Lorem mollit anim aliqua consequat anim irure dolor ex amet. Sunt officia ad anim id officia ea proident esse excepteur aute laborum. Tempor anim qui cillum eiusmod officia in qui occaecat eiusmod sit voluptate magna ea elit. Minim anim aliquip aute sint eiusmod do tempor culpa do sit voluptate veniam. Fugiat reprehenderit deserunt dolore non consequat proident Lorem laborum esse occaecat dolor quis irure. In mollit laborum sint qui proident ipsum in do labore aliquip.\r\nNulla aliquip dolore pariatur non ullamco eu nisi sint voluptate. Deserunt magna pariatur sint in sint dolor enim labore velit. Sunt magna ut id aute. Et aute officia labore laboris esse ipsum ex.\r\nUt quis officia do sint. In id deserunt consectetur ut sint culpa incididunt. Deserunt officia nulla elit aliqua pariatur aliqua eiusmod sit occaecat officia commodo pariatur.\r\nNulla exercitation ut nisi esse cillum ad irure aliquip laboris consequat ut ut aute. Do sint aute est mollit tempor. Ex dolor do qui labore ipsum tempor labore esse exercitation consequat aliqua ullamco qui. Incididunt amet irure anim quis ullamco nostrud irure. Ex pariatur et elit incididunt exercitation esse dolor aliquip reprehenderit aliqua.\r\n",
+            "sinopsis" : "Kepo Deh",
+            "bannerBerita":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tobey-maguire-andrew-garfield-tom-holland-1607527815.jpg?crop=1.00xw:0.502xh;0,0.104xh&resize=1200:*",
+            "soundtrack":"https://dl.dropbox.com/s/ieu0c5gmcomdouc/%E2%80%9CSpider-Man%E2%80%9D%20%281967%20Theme%20Song%29%20by%20Bob%20Harris%20and%20Paul%20Francis%20Webster%20-%20Cover%20by%20The%20Vocal%20Chords.mp3"
+        },
+        {
+            "idKategori":1,
+            "judulBerita": "Berita C",
+            "sumberBerita": "Siapa Pun",
+            "jumlahLike":0,
+            "isMovieNews":false,
+            "isSerialNews":true,
+            "jumlahLihat":0,
+            "isiBerita":"Sit magna consequat consectetur cupidatat aute. Minim ad minim tempor nulla tempor aute culpa nisi incididunt cupidatat reprehenderit. Excepteur ut pariatur duis ex id veniam culpa excepteur ea elit laborum mollit. Nulla dolore mollit ipsum ad qui aute.\r\nOccaecat nisi deserunt cupidatat enim fugiat officia consectetur. Lorem mollit anim aliqua consequat anim irure dolor ex amet. Sunt officia ad anim id officia ea proident esse excepteur aute laborum. Tempor anim qui cillum eiusmod officia in qui occaecat eiusmod sit voluptate magna ea elit. Minim anim aliquip aute sint eiusmod do tempor culpa do sit voluptate veniam. Fugiat reprehenderit deserunt dolore non consequat proident Lorem laborum esse occaecat dolor quis irure. In mollit laborum sint qui proident ipsum in do labore aliquip.\r\nNulla aliquip dolore pariatur non ullamco eu nisi sint voluptate. Deserunt magna pariatur sint in sint dolor enim labore velit. Sunt magna ut id aute. Et aute officia labore laboris esse ipsum ex.\r\nUt quis officia do sint. In id deserunt consectetur ut sint culpa incididunt. Deserunt officia nulla elit aliqua pariatur aliqua eiusmod sit occaecat officia commodo pariatur.\r\nNulla exercitation ut nisi esse cillum ad irure aliquip laboris consequat ut ut aute. Do sint aute est mollit tempor. Ex dolor do qui labore ipsum tempor labore esse exercitation consequat aliqua ullamco qui. Incididunt amet irure anim quis ullamco nostrud irure. Ex pariatur et elit incididunt exercitation esse dolor aliquip reprehenderit aliqua.\r\n",
+            "sinopsis" : "Gimana Ya",
+            "bannerBerita":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tobey-maguire-andrew-garfield-tom-holland-1607527815.jpg?crop=1.00xw:0.502xh;0,0.104xh&resize=1200:*",
+            "soundtrack":"https://dl.dropbox.com/s/ieu0c5gmcomdouc/%E2%80%9CSpider-Man%E2%80%9D%20%281967%20Theme%20Song%29%20by%20Bob%20Harris%20and%20Paul%20Francis%20Webster%20-%20Cover%20by%20The%20Vocal%20Chords.mp3"
+        },
+        {
+            "idKategori":2,
+            "judulBerita": "Berita D",
+            "sumberBerita": "Rafi",
+            "jumlahLike":0,
+            "isMovieNews":false,
+            "isSerialNews":true,
+            "jumlahLihat":0,
+            "isiBerita":"Sit magna consequat consectetur cupidatat aute. Minim ad minim tempor nulla tempor aute culpa nisi incididunt cupidatat reprehenderit. Excepteur ut pariatur duis ex id veniam culpa excepteur ea elit laborum mollit. Nulla dolore mollit ipsum ad qui aute.\r\nOccaecat nisi deserunt cupidatat enim fugiat officia consectetur. Lorem mollit anim aliqua consequat anim irure dolor ex amet. Sunt officia ad anim id officia ea proident esse excepteur aute laborum. Tempor anim qui cillum eiusmod officia in qui occaecat eiusmod sit voluptate magna ea elit. Minim anim aliquip aute sint eiusmod do tempor culpa do sit voluptate veniam. Fugiat reprehenderit deserunt dolore non consequat proident Lorem laborum esse occaecat dolor quis irure. In mollit laborum sint qui proident ipsum in do labore aliquip.\r\nNulla aliquip dolore pariatur non ullamco eu nisi sint voluptate. Deserunt magna pariatur sint in sint dolor enim labore velit. Sunt magna ut id aute. Et aute officia labore laboris esse ipsum ex.\r\nUt quis officia do sint. In id deserunt consectetur ut sint culpa incididunt. Deserunt officia nulla elit aliqua pariatur aliqua eiusmod sit occaecat officia commodo pariatur.\r\nNulla exercitation ut nisi esse cillum ad irure aliquip laboris consequat ut ut aute. Do sint aute est mollit tempor. Ex dolor do qui labore ipsum tempor labore esse exercitation consequat aliqua ullamco qui. Incididunt amet irure anim quis ullamco nostrud irure. Ex pariatur et elit incididunt exercitation esse dolor aliquip reprehenderit aliqua.\r\n",
+            "sinopsis" : "Please Lah",
+            "bannerBerita":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tobey-maguire-andrew-garfield-tom-holland-1607527815.jpg?crop=1.00xw:0.502xh;0,0.104xh&resize=1200:*",
+            "soundtrack":"https://dl.dropbox.com/s/ieu0c5gmcomdouc/%E2%80%9CSpider-Man%E2%80%9D%20%281967%20Theme%20Song%29%20by%20Bob%20Harris%20and%20Paul%20Francis%20Webster%20-%20Cover%20by%20The%20Vocal%20Chords.mp3"
+        },
+        {
+            "idKategori":3,
+            "judulBerita": "Berita E",
+            "sumberBerita": "Halo",
+            "jumlahLike":0,
+            "isMovieNews":true,
+            "isSerialNews":false,
+            "jumlahLihat":0,
+            "isiBerita":"Sit magna consequat consectetur cupidatat aute. Minim ad minim tempor nulla tempor aute culpa nisi incididunt cupidatat reprehenderit. Excepteur ut pariatur duis ex id veniam culpa excepteur ea elit laborum mollit. Nulla dolore mollit ipsum ad qui aute.\r\nOccaecat nisi deserunt cupidatat enim fugiat officia consectetur. Lorem mollit anim aliqua consequat anim irure dolor ex amet. Sunt officia ad anim id officia ea proident esse excepteur aute laborum. Tempor anim qui cillum eiusmod officia in qui occaecat eiusmod sit voluptate magna ea elit. Minim anim aliquip aute sint eiusmod do tempor culpa do sit voluptate veniam. Fugiat reprehenderit deserunt dolore non consequat proident Lorem laborum esse occaecat dolor quis irure. In mollit laborum sint qui proident ipsum in do labore aliquip.\r\nNulla aliquip dolore pariatur non ullamco eu nisi sint voluptate. Deserunt magna pariatur sint in sint dolor enim labore velit. Sunt magna ut id aute. Et aute officia labore laboris esse ipsum ex.\r\nUt quis officia do sint. In id deserunt consectetur ut sint culpa incididunt. Deserunt officia nulla elit aliqua pariatur aliqua eiusmod sit occaecat officia commodo pariatur.\r\nNulla exercitation ut nisi esse cillum ad irure aliquip laboris consequat ut ut aute. Do sint aute est mollit tempor. Ex dolor do qui labore ipsum tempor labore esse exercitation consequat aliqua ullamco qui. Incididunt amet irure anim quis ullamco nostrud irure. Ex pariatur et elit incididunt exercitation esse dolor aliquip reprehenderit aliqua.\r\n",
+            "sinopsis" : "Apasih Kamu",
+            "bannerBerita":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tobey-maguire-andrew-garfield-tom-holland-1607527815.jpg?crop=1.00xw:0.502xh;0,0.104xh&resize=1200:*",
+            "soundtrack":"https://dl.dropbox.com/s/ieu0c5gmcomdouc/%E2%80%9CSpider-Man%E2%80%9D%20%281967%20Theme%20Song%29%20by%20Bob%20Harris%20and%20Paul%20Francis%20Webster%20-%20Cover%20by%20The%20Vocal%20Chords.mp3"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "kategori" : [
+        {
+            "id":1,
+            "namaKategori":"Asia"
+        },
+        {
+            "id":2,
+            "namaKategori":"Barat"
+        },
+        {
+            "id":3,
+            "namaKategori":"Indonesia"
+        }
+    ]
+}
