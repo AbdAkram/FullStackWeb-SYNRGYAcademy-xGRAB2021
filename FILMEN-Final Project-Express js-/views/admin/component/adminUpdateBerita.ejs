@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Document</title>
+  <style>
+    .title {
+  position: absolute;
+  /* width: 255px;
+  height: 58px; */
+  top: 80px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 58px;
+  color: #000000;
+}
+
+#labelUpload {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ff9900;
+  top: 214px;
+  position: absolute;
+}
+
+#labelTanggal {
+  top: 214px;
+  left: 443px;
+  position: absolute;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ff9900;
+}
+
+#labelSumber {
+  top: 214px;
+  left: 748px;
+  position: absolute;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ff9900;
+}
+
+.boxUpload {
+  top: 265px;
+  position: absolute;
+  width: 381px;
+  height: 74px;
+  text-align: left;
+  display: flex;
+  border-radius: 8px;
+  background: #ececec;
+}
+
+.boxTanggal {
+  top: 265px;
+  left: 443px;
+  position: absolute;
+  text-align: left;
+  display: flex;
+  border-radius: 8px;
+  border: none;
+  background: #ececec;
+  width: 231px;
+  height: 74px;
+}
+
+.boxSumber {
+  top: 265px;
+  left: 748px;
+  position: absolute;
+  width: 375px;
+  height: 74px;
+  text-align: left;
+  display: flex;
+  border-radius: 8px;
+  border: none;
+  background: #ececec;
+}
+
+.labelJudul {
+  position: absolute;
+  top: 358px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ff9900;
+}
+
+.boxJudul {
+  width: 1112px;
+  height: 74px;
+  background: #ececec;
+  border-radius: 8px;
+  border: none;
+}
+
+.labelDeskripsi {
+  position: absolute;
+  top: 502px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ff9900;
+}
+
+.labelKategori {
+  position: absolute;
+  top: 502px;
+  left: 702px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ff9900;
+}
+
+.labelTag {
+  position: absolute;
+  top: 502px;
+  left: 943px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ff9900;
+}
+
+.boxDeskripsi {
+  position: absolute;
+  width: 648px;
+  height: 74px;
+  top: 553px;
+  background: #ececec;
+  border-radius: 8px;
+  border: none;
+}
+
+.boxKategori {
+  position: absolute;
+  width: 184px;
+  height: 74px;
+  top: 553px;
+  left: 704px;
+  background: #ececec;
+  border-radius: 8px;
+  border: none;
+}
+
+.boxTag {
+  position: absolute;
+  width: 184px;
+  height: 74px;
+  top: 553px;
+  left: 940px;
+  background: #ececec;
+  border-radius: 8px;
+  border: none;
+}
+
+.labelArtikel {
+  position: absolute;
+  top: 646px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ff9900;
+}
+
+.boxArtikel {
+  position: absolute;
+  width: 1121px;
+  height: 371px;
+  top: 697px;
+  background: #ececec;
+  border-radius: 8px;
+  border: none;
+}
+
+.boxGambar {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ff9900;
+  top: 976px;
+  position: absolute;
+}
+
+.buttonCancel {
+  position: absolute;
+  width: 130px;
+  height: 51px;
+  top: 1117px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: #b0b0b0;
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>
+
+<div class="title">
+    <h2>Upload Berita</h2>
+  </div>
+  <div class="d-flex flex-row">
+    <label id="labelUpload" for="Gambar">Upload Gambar</label>
+    <label id="labelTanggal" for="tanggal">Tanggal Berita</label>
+    <label id="labelSumber" for="sumber">Sumber Berita</label>
+  </div>
+  <div class="d-flex flex-row">
+    <input
+      class="boxUpload"
+      type="file"
+      id="myfile"
+      name="uploadImage"
+      placeholder=""
+    />
+    <input class="boxTanggal" type="date" id="tanggal" name="tanggal" />
+    <input
+      class="boxSumber"
+      type="text"
+      id="sumber"
+      name="sumber"
+      placeholder="Masukkan sumber berita"
+    />
+  </div>
+  <div class="labelJudul">
+    <label for="judul">Masukkan Judul Berita</label><br />
+    <input
+      class="boxJudul"
+      type="text"
+      id="judul"
+      name="judul"
+      placeholder="Masukkan Judul berita"
+    />
+  </div>
+  <div class="d-flex flex-row">
+    <label class="labelDeskripsi" for="deskripsi-pendek"
+      >Masukkan Deskripsi Pendek</label
+    ><br />
+    <label class="labelKategori" or="kategori">Kategori</label>
+    <label class="labelTag" for="tag">Tag Film</label>
+  </div>
+  <div class="d-flex flex-row">
+    <input
+      class="boxDeskripsi"
+      type="text"
+      id="deskripsiPendek"
+      name="deskripsi-pendek"
+      placeholder="Masukkan Deskripsi Pendek"
+    />
+    <select class="boxKategori" id="kategori" name="kategori">
+      <option value="Semua">Semua</option>
+      <option value="Asia">Asia</option>
+      <option value="Barat">Barat</option>
+      <option value="Indonesia">Indonesia</option>
+    </select>
+    <select class="boxTag" id="tag" name="tag">
+      <option value="movie">Movie</option>
+      <option value="serial">Serial</option>
+    </select>
+  </div>
+  <div class="containerArtikel">
+    <label class="labelArtikel" for="artikel">Masukkan Artikel</label><br />
+    <input
+      class="boxArtikel"
+      type="text"
+      id="container-artikel"
+      name="artikel"
+      placeholder="Masukkan Artikel"
+    />
+    <!-- <label class="labelGamber" for="Gambar">Upload Gambar</label><br /> -->
+    <input
+      class="boxGambar"
+      type="file"
+      id="myfile"
+      name="uploadImage"
+      placeholder=""
+    />
+  </div>
+  <div class="d-flex flex-row">
+    <div class="buttonCancel">
+      <button class="buttonCancel">Cancel</button>
+    </div>
+    <div>
+      <button class="buttonUpload">Upload</button>
+    </div>
+  </div>
+
+</body>
+</html>

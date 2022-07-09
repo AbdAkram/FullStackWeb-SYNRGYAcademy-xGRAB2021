@@ -1,0 +1,5 @@
+Folder untuk menyimpan komponen komponen, seperti header, footer, berita, dll
+Tidak perlu pake tag <html> lagi.
+
+Contoh ingin membuat komponen button, isi filenya akan terlihat seperti ini :
+    <button> Daftar </button> 
