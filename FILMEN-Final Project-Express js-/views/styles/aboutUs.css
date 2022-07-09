@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(221, 221, 221);
+    margin-left: 220px;
+}
+.about{
+    background-color: white;
+    font-size: 13px;
+    color: black;
+    border-radius: 10px;
+    width: 900px;
+    padding: 30px;
+    margin-top: 30px;
+    line-height: 25px;
+    text-align: justify;
+}
+span{
+    color: rgba(255, 153, 0, 1);
+}
+.aboutUs{
+    width: 830px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+.a{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+footer {
+  width: 100%;
+  height: 100px;
+  background: black;
+  bottom: 0px;
+  line-height: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-style: bold;
+  font-family: "Poppins";
+}
+.footer-informasi p {
+  color: white;
+  opacity: 50%;
+  line-height: 0%;
+  font-family: "Poppins";
+}
+.footer-medsos p {
+  opacity: 0%;
+}
+.footer-feedback span {
+  color: #8d8d8d;
+}

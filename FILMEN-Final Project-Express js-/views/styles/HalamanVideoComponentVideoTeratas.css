@@ -1,0 +1,49 @@
+.countainer {
+  position: relative;
+  width: 100%;
+}
+.vidio1 {
+  position: absolute;
+  top: 765px;
+  left: 323px;
+}
+
+.vidio2 {
+  position: absolute;
+  top: 765px;
+  left: 783px;
+}
+
+.vidio3 {
+  position: absolute;
+  top: 765px;
+  left: 1243px;
+}
+
+.vidio4 {
+  position: absolute;
+  top: 1240px;
+  left: 323px;
+}
+
+.vidio5 {
+  position: absolute;
+  top: 1240px;
+  left: 782px;
+}
+
+.vidio6 {
+  position: absolute;
+  top: 1240px;
+  left: 1242px;
+}
+
+.shadow {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
+}
+
+.judul {
+  position: absolute;
+  left: 335px;
+  top: 695px;
+}

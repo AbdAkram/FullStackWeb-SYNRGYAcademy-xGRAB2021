@@ -1,0 +1,77 @@
+.containerBesar {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.05);
+  background: white;
+}
+.containerBesar-inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.containerBesar-inner .gambar-thumbnail {
+  filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.05));
+  border-radius: 14px;
+  height: 360px;
+  object-fit: cover;
+  object-position: center;
+}
+.containerBesar-inner .gambar-thumbnail:hover {
+  cursor: pointer;
+}
+.deskripsi-thumbnail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 25px;
+  gap: 15px;
+  flex-wrap: wrap-reverse;
+}
+.deskripsi-thumbnail .title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+.icon-container-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.icon-detail {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.like_btn {
+  background-color: #ffffff;
+  padding: 0;
+  border: none;
+}
+.kategori-berita {
+  border-radius: 500px;
+  border-style: solid;
+  border-color: #ff9900;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.title:hover {
+  color: #ff9900;
+  cursor: pointer;
+}
+.body-film {
+  padding: 16px 25px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.body-film p {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 1600px) {
+  .deskripsi-thumbnail .title {
+    font-size: 36px;
+  }
+}

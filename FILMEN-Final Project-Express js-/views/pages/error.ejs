@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= error.data===404 ? err404 : err500 %>
+    </title>
+    <style>
+        .container-error {
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container-error-inner {
+            height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .container-error img {
+            width: 100%;
+            object-fit: contain;
+            height: 100%;
+        }
+
+        .link-kembali {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 24px;
+            text-decoration: none;
+            color: #ff9900
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-error">
+        <div class="container-error-inner">
+            <% if(error.data===404){%>
+                <img src="../assets/gambar/404.png" alt="">
+                <a href="/" class="link-kembali">
+                    Kembali Ke Halaman Utama
+                </a>
+        </div>
+        <% }else{ %>
+            <img src="../assets/gambar/500.png" alt="">
+            <% } %>
+    </div>
+    </div>
+</body>
+
+</html>

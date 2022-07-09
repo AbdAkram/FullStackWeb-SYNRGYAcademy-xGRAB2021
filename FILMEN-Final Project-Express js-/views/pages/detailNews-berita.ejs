@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--------------------------------------------header--------------------------------------------------------->
+
+  <!----------------------------------------------------------------------------------------------------------->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="../jquery/jquery.js"></script>
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/default.css">
+  <link rel="stylesheet" href="../styles/homepage.css">
+  <link rel="stylesheet" href="../styles/detailNews.css">
+  <link rel="stylesheet" href="../styles/breadcrumbs.css">
+  <link rel="stylesheet" href="../styles/share.css">
+  <link rel="stylesheet" href="../styles/komentar.css">
+  <link rel="stylesheet" href="../styles/movienewslainnya.css">
+  <link rel="stylesheet" href="../styles/video_teratas.css">
+  <link rel="stylesheet" href="../styles/beritaPartials.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.css">
+  <link rel="stylesheet" href="../assets/font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+
+  <title>Filmen</title>
+</head>
+
+<body>
+  <!----------------------------------------------halaman berita----------------------------------------------->
+  <%- include('../components/header.ejs', {page:null}) %>
+  <div class="sidebar-common">
+    <%- include('../components/loginHomePage.ejs') %>
+    <%- include('../components/share.ejs') %>
+  </div>
+  <div class="detailPage">
+    <div class="container-fluid px-0 py-2">
+      <div class="row gx-3">
+        <div class="col-9">
+          <%- include('../components/breadcrumbs.ejs') %>
+        </div>
+        <div class="col-3">
+        </div>
+      </div>
+      <div class="row gx-5">
+        <div class="col-9">
+          <!-- Isi Berita -->
+          <div class="detail-berita-container">
+            <div class="detail-berita-inner">
+              <% if(data){ %>
+              <img src="<%= data.bannerBerita %>" class="background-berita" alt="gambar">
+              <div class="card-detail-berita">
+                <div class="card-inner-berita">
+                  <audio autoplay loop src="<%= data.soundtrack %>"></audio>
+                  <h3 class="card-title" style="text-align: center;">
+                    <%= data.judulBerita %>
+                  </h3>
+                  <p class="sinopsis">
+                    <%= data.sinopsis %>
+                  </p>
+                  <div style="text-align: center;">
+                    <p1>by </p1><a style="color: #ff9900;" href="https://sushi.id/spoiler-film-fast-and-furious-9/">
+                      <%= data.sumberBerita %>
+                    </a>
+                    <p1> | 27 desember 2021</p1>
+                  </div>
+                  <div class="icon-container-detail" action="/Like" method="post">
+                    <button class="like_btn" style="text-align: center;">
+                      <span id="icon"><i class="far fa-thumbs-up"></i></span>
+                      <span id="count">0</span>
+                    </button>
+                    <div class="icon-detail">
+                      <span id="icon2"><i class="far fa-eye"></i></span>
+                      <span id="count2">0</span>
+                    </div>
+                    <div class="icon-detail">
+                      <span id="icon3"><i class="far fa-comment-alt"></i></span>
+                      <span id="count3">0</span>
+                    </div>
+                  </div>
+                  <div class="kategori-detail">
+                    <p1 class="kategori-berita">
+                      <%= data.isMovieNews ? "Movie News" : "Serial News" %>
+                    </p1>
+                    <p1 class="kategori-berita">Barat</p1>
+                  </div>
+                </div>
+              </div>
+              <div class="isi-berita">
+                <%= data.isiBerita %>
+                <div class="tag-berita">
+                  <p>Tags :</p>
+                  <div class="kategori-detail">
+                    <p1 class="kategori-berita">
+                      <%= data.isMovieNews ? "Movie News" : "Serial News" %>
+                    </p1>
+                    <p1 class="kategori-berita">Barat</p1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Kolom Komentar -->
+          <%- include('../components/komentar.ejs') %>
+        </div>
+        <div class="col-3">
+          <h2 style="margin-bottom: 30px; font-size: 26px; font-weight: 600;">Trending Topics</h2>
+          <div class="container-topics">
+            <div class="container-topics-inner">
+              <%- include('../components/beritaPartials.ejs') %>
+              <%- include('../components/beritaPartials.ejs') %>
+              <%- include('../components/beritaPartials.ejs') %>
+            </div>
+          </div>
+          <h2 style="margin-top: 30px; margin-bottom: 30px; font-size: 26px; font-weight: 600;">Pilihan Editor</h2>
+          <div class="container-topics">
+            <div class="container-topics-inner">
+              <%- include('../components/beritaPartials.ejs') %>
+              <%- include('../components/beritaPartials.ejs') %>
+              <%- include('../components/beritaPartials.ejs') %>
+            </div>
+          </div>
+          <h2 style="margin-top: 30px; margin-bottom: 30px; font-size: 26px; font-weight: 600;">Video Teratas</h2>
+          <%- include('../components/video_teratas.ejs') %>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Movie News Lainnya -->
+        <%- include('../components/movienewslainnya.ejs', {data:data}) %>
+      </div>
+    </div>
+  </div>
+  <% } else { %>
+  <h2>Gaada Data nya Brok</h2>
+  <% } %>
+  <%- include('../components/footer.ejs') %>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+/* body {
+            margin: 7%;
+            padding: 0;
+            background-color: rgba(189, 189, 189, 0.897);
+        } */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.side-kiri {
+    display: flex;
+    flex: 60%;
+    flex-wrap: wrap;
+    background-color: white;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.side-kanan {
+    display: flex;
+    flex: 40%;
+    flex-wrap: wrap;
+    background-color: white;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+.paragraf {
+    margin-top: 15%;
+    margin-left: 5%;
+}

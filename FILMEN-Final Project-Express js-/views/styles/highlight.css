@@ -1,0 +1,81 @@
+.highlight-video {
+  width: 100%;
+  background-color: rgb(12, 12, 12);
+  border-radius: 14px;
+  font-family: "poppins";
+  padding: 25px;
+  margin-top: 3rem;
+}
+
+.card-body-video {
+  padding: 15px;
+}
+
+.card-img-top {
+  border-radius: 14px;
+  height: 240px;
+}
+
+.highlight-video h5,
+.card-body-video h5 {
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.highlight-video h5:hover,
+.card-embed-video.white-video h5:hover,
+.card-body-video h5:hover {
+  color: rgb(247, 137, 19);
+  cursor: pointer;
+}
+
+.highlight-video p,
+.card-body-video p {
+  font-size: 12px;
+  margin: 0;
+  color: white;
+}
+
+.highlight-text {
+  color: #ff9900;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* For Black Colour Video */
+.card-embed-video {
+  background: #242424;
+  box-shadow: 0px 4px 18px rgba(22, 22, 22, 0.51);
+  border-radius: 14px;
+  height: 100%;
+}
+
+/* For White Colour Video */
+.card-embed-video.white-video {
+  background: white;
+}
+.card-embed-video.white-video h5 {
+  color: black;
+  font-size: 16px;
+}
+.card-embed-video.white-video p {
+  color: #8d8d8d;
+  font-size: 12px;
+  margin: 0;
+}
+.card-embed-video.white-video .card-img-top {
+  height: 200px;
+}
+
+@media screen and (min-width: 1600px) {
+  .card-img-top {
+    height: 280px;
+  }
+  .card-embed-video.white-video .card-img-top {
+    height: 240px;
+  }
+}

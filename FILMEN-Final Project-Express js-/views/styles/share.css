@@ -1,0 +1,87 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  padding: 20px;
+}
+.paragraf {
+  display: flex;
+  flex-direction: column;
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.flex-container .paragraf p,
+.flex-container .icon-list a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0;
+}
+.flex-container .paragraf p {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.flex-container .icon-list a {
+  font-weight: 500;
+}
+.icon-share {
+  width: 25px;
+  border-radius: 5px;
+  vertical-align: middle;
+  transition: 0.5s ease;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.tombol {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+.icon-list {
+  position: relative;
+  flex-direction: row;
+  gap: 15px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon-list:hover .icon-share {
+  left: 10%;
+  filter: invert(61%) sepia(72%) saturate(2009%) hue-rotate(359deg)
+    brightness(101%) contrast(105%);
+}
+.icon-list:hover .tombol {
+  color: #ff9900;
+  opacity: 1;
+  transform: translateX(35px);
+}
+
+@media screen and (min-width: 1600px) {
+  .flex-container {
+    padding: 25px;
+  }
+  .icon-container {
+    gap: 25px;
+  }
+  .icon-list {
+    height: 35px;
+  }
+  .icon-share {
+    width: 35px;
+  }
+  .icon-list:hover .tombol {
+    transform: translateX(50px);
+  }
+}

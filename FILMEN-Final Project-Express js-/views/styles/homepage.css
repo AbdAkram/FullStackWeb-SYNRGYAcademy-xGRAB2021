@@ -1,0 +1,34 @@
+.homepage,
+.detailPage {
+  padding-top: 70px;
+  padding-bottom: 35px;
+  min-height: 100vh;
+  margin-left: 225px;
+  margin-right: 3.3%;
+  font-family: "Poppins";
+}
+
+.sidebar-common {
+  top: 135px;
+  left: 20px;
+  width: 220px;
+  display: flex;
+  position: fixed;
+  padding: 30px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 1600px) {
+  .detailPage,
+  .homepage {
+    margin-left: 300px;
+    padding-top: 100px;
+  }
+  .sidebar-common {
+    top: 150px;
+    gap: 25px;
+    width: 270px;
+    left: 45px;
+  }
+}

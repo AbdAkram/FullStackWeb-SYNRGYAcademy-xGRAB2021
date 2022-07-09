@@ -1,0 +1,1 @@
+Folder untuk menyimpan halaman yang ada seperti halaman login, halaman register, halaman beranda

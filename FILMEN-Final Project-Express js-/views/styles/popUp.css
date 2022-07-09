@@ -1,0 +1,22 @@
+.modal-dialog{
+    width: 600px;
+    height: 450px;
+    font-family: 'poppins';
+    border-radius: 20px;
+  }  
+  .modal-body-modal{
+      text-align: center;
+      color: white;
+  }
+  .caption{
+    background-color: rgb(34, 34, 34);
+    width: 230px;
+    height: 280px;
+  }
+  span{
+    color: rgb(255, 187, 0);
+  }
+  .btn1{
+    width: 120px;
+    height: 30px;
+  }

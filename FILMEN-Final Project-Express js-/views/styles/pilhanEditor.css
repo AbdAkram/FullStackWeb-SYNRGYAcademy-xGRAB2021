@@ -1,0 +1,98 @@
+* {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  
+  .container-pilihanEditor {
+    width: 542px;
+    height: 575px;
+    padding: 0 0 31px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.05);
+    background-color: var(--bg-card-color-primary);
+  }
+  
+  #img-thumbnail {
+    width: 542px;
+    height: 266px;
+    margin-left: 0;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ededed;
+    border-radius: 14px;
+  }
+  
+  .button-tag {
+    width: 124px;
+    height: 32px;
+    flex-grow: 0;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 23px 24px 16px 16px;
+    padding: 4px 16px;
+    border-radius: 27px;
+    border: solid 2px;
+    border-color: #ff9900;
+    cursor: pointer;
+  }
+  
+  .button-tag:hover {
+    background-color: #ff9900;
+    color: white;
+  }
+  
+  .view-icon {
+    width: 30px;
+    height: 30px;
+    flex-grow: 0;
+    margin: 20px 61px 17px 24px;
+  }
+  
+  .comment-icon {
+    width: 26.3px;
+    height: 24.2px;
+    flex-grow: 0;
+    margin: 20px 61px 17px 24px;
+  }
+  
+  .like-icon {
+    width: 25px;
+    height: 23.8px;
+    margin: 18px 61px 17px 24px;
+  }
+  
+  .title-film {
+    width: 506px;
+    height: 46px;
+    margin: 0 20px 16px 16px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.77;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .title-film:hover {
+    color: #ff9900;
+  }
+  
+  .body-film {
+    width: 515px;
+    height: 145px;
+    margin-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8d8d8d;
+  }
+

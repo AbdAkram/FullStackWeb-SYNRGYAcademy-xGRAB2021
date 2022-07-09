@@ -1,0 +1,12 @@
+.highlight-video {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 363px;
+  background-color: rgb(12, 12, 12);
+  border-radius: 14px;
+  font-family: "poppins";
+  padding: 25px;
+}
+
+/* kalo mau di inline in gpp kok style nya dkit doang */

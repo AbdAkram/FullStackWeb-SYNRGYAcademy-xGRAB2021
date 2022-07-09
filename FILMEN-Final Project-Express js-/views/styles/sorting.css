@@ -1,0 +1,33 @@
+.sort-container {
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  padding: 32px;
+}
+.sort-container-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.sort-container h3 {
+  font-size: 26px;
+  font-weight: bolder;
+  margin: 0;
+}
+.sort-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+}
+
+.sort-list p {
+  margin: 0;
+  transition: 0.5s ease;
+}
+
+.sort-list .kategori-berita:hover {
+  background: #ff9900;
+  color: white;
+  cursor: pointer;
+}

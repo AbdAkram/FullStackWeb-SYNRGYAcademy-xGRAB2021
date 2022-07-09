@@ -1,0 +1,66 @@
+.div {
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.countainer {
+    position: relative;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    width: 428px;
+    height: 419px;
+    left: 50% - 428px/2 - 453px;
+}
+
+.card.news {
+    width: auto;
+    height: auto;
+}
+
+.vidio1 {
+    position: absolute;
+    top: 765px;
+    left: 323px;
+}
+
+.vidio2 {
+    position: absolute;
+    top: 765px;
+    left: 783px;
+}
+
+.vidio3 {
+    position: absolute;
+    top: 765px;
+    left: 1243px;
+}
+
+.shadow {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
+}
+
+.judul {
+    position: absolute;
+    left: 335px;
+    top: 695px;
+}
+
+.card-title {
+    color: rgb(250, 250, 250);
+    bottom: 0;
+    left: 0;
+}
+h6 {
+    text-shadow: 2px 2px 5px rgb(3, 3, 3);
+
+}
+
+a h6 {
+    color: unset;
+    text-decoration-line: none;
+
+}
